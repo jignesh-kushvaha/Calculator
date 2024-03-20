@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+   
+</head>
+
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <header><u>Calculater</u></header>
+            <div class="msg">
+                <p class="text" id="result"></p>
+            </div>
+            <div id="main_container">
+        
+                <div id="container-1" class="items">
+                    <div class="btn" onclick="mycalc(1)">1</div>
+                    <div class="btn" onclick="mycalc(2)">2</div>
+                    <div class="btn" onclick="mycalc(3)">3</div>
+                    <div class="btn" onclick="mycalc('*')">*</div>
+                </div>
+                <div id="container-2" class="items">
+                    <div class="btn" onclick="mycalc(4)">4</div>
+                    <div class="btn" onclick="mycalc(5)">5</div>
+                    <div class="btn" onclick="mycalc(6)">6</div>
+                    <div class="btn" onclick="mycalc('/')">/</div>
+                </div>
+                <div id="container-3" class="items">
+                    <div class="btn" onclick="mycalc(7)">7</div>
+                    <div class="btn" onclick="mycalc(8)">8</div>
+                    <div class="btn" onclick="mycalc(9)">9</div>
+                    <div class="btn" onclick="mycalc('-')">-</div>
+                </div>
+                <div id="container-4" class="items">
+                    <div class="btn" onclick="mycalc(0)">0</div>
+                    <div class="btn" onclick="mycalc('.')">.</div>
+                    <div class="btn" onclick="mycalc('=')">=</div>
+                    <div class="btn" onclick="mycalc('+')">+</div>
+                </div>
+                <div id="container-4" class="item1">
+                    <div class="btn1" onclick="myclear()">CLEAR</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
